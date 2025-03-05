@@ -1,10 +1,13 @@
-import Index from './components/Index'
-import './index.css'
+import Read from "./components/Read";
+import './index.css';
+// import Update from "./components/Update";
 
 function App() {
   return (
-      <Index />
+    <div>
+      <Read />
+    </div>
   );
-};
+}
 
-export default App
+export default App;
